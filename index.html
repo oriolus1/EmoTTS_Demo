@@ -507,6 +507,764 @@
  
 </table>
 
+
+
+
+
+
+
+
+
+
+
+<h1 id="comp">Model comparison, low resource (four base speakers 15 min, test speakers 2.5 min)</h1>
+
+  
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">speaker, emotion</th>
+      <th style="text-align: center">ground_truth</th>
+      <th style="text-align: center">nat_inflated</th>
+      <th style="text-align: center">nat_va_conv_dur</th>
+      <th style="text-align: center">nat_va</th>
+	  <th style="text-align: center">fastspeech</th>
+    </tr>
+  </thead>  
+   
+
+  <tbody>
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_5_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_501330/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0011/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0011/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0011/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0011/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_5_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_732130/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0011/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0011/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0011/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0011/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_5_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_143821/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0011/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0011/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0011/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0011/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_5_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_701452/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0011/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0011/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0011/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0011/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+  
+<td bgcolor="#FFFFFF" style="line-height:20px;" colspan=3>&nbsp;</td>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_7_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_501330/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0011/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0011/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0011/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0011/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_7_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_732130/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0011/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0011/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0011/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0011/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_7_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_143821/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0011/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0011/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0011/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0011/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+   </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_7_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_701452/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0011/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0011/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0011/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0011/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_5_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_501330/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0012/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0012/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0012/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0012/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_5_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_732130/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0012/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0012/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0012/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0012/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_5_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_143821/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0012/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0012/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0012/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0012/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_5_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_701452/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0012/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0012/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0012/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0012/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+
+<td bgcolor="#FFFFFF" style="line-height:20px;" colspan=3>&nbsp;</td>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_12_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_501330/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0012/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0012/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0012/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0012/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_12_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_732130/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0012/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0012/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0012/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0012/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_12_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_143821/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0012/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0012/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0012/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0012/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_12_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_701452/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0012/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0012/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0012/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0012/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+  
+<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+
+
+
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_4_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_501330/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0014/g_501330/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0014/g_501330/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0014/g_501330/4.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0014/g_501330/4.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_4_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_732130/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0014/g_732130/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0014/g_732130/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0014/g_732130/4.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0014/g_732130/4.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_4_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_143821/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0014/g_143821/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0014/g_143821/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0014/g_143821/4.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0014/g_143821/4.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_4_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_701452/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0014/g_701452/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0014/g_701452/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0014/g_701452/4.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0014/g_701452/4.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+	
+
+<td bgcolor="#FFFFFF" style="line-height:20px;" colspan=3>&nbsp;</td>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_7_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_501330/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0014/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0014/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0014/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0014/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_7_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_732130/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0014/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0014/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0014/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0014/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_7_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_143821/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0014/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0014/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0014/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0014/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_7_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_701452/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0014/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0014/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0014/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0014/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+
+
+<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_8_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_501330/8.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0020/g_501330/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0020/g_501330/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0020/g_501330/8.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0020/g_501330/8.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_8_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_732130/8.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0020/g_732130/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0020/g_732130/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0020/g_732130/8.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0020/g_732130/8.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_8_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_143821/8.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0020/g_143821/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0020/g_143821/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0020/g_143821/8.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0020/g_143821/8.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_8_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_701452/8.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0020/g_701452/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0020/g_701452/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0020/g_701452/8.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0020/g_701452/8.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+	
+	
+<td bgcolor="#FFFFFF" style="line-height:20px;" colspan=3>&nbsp;</td>	
+	
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_12_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_501330/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0020/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0020/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0020/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0020/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_12_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_732130/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0020/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0020/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0020/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0020/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_12_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_143821/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0020/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0020/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0020/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0020/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+   </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_12_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_701452/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5/nat_inflated_f_vctk_only_tune_emo_only_2.5/g_02610000/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5/nat_va_after_duration_conv_vctk_tune_2.5/g_02610000/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5/nat_va_after_duration_upsample_vctk_tune_2.5/g_02610000/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+   </tr>
+
+<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+
+ </tbody>
+ 
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 id="comp">Model comparison, low resource (only one base speaker 15 min, test speakers 2.5 min)</h1>
+
+  
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">speaker, emotion</th>
+      <th style="text-align: center">ground_truth</th>
+      <th style="text-align: center">nat_inflated</th>
+      <th style="text-align: center">nat_va_conv_dur</th>
+      <th style="text-align: center">nat_va</th>
+	  <th style="text-align: center">fastspeech</th>
+    </tr>
+  </thead>  
+   
+  
+
+  <tbody>
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_5_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_501330/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0011/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0011/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0011/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0011/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_5_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_732130/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0011/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0011/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0011/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0011/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_5_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_143821/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0011/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0011/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0011/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0011/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_5_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_701452/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0011/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0011/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0011/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0011/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+  
+<td bgcolor="#FFFFFF" style="line-height:20px;" colspan=3>&nbsp;</td>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_7_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_501330/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0011/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0011/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0011/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0011/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_7_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_732130/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0011/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0011/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0011/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0011/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_7_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_143821/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0011/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0011/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0011/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0011/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+   </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0011_7_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0011/g_701452/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0011/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0011/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0011/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0011/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_5_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_501330/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0012/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0012/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0012/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0012/g_501330/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_5_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_732130/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0012/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0012/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0012/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0012/g_732130/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_5_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_143821/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0012/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0012/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0012/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0012/g_143821/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_5_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_701452/5.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0012/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0012/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0012/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0012/g_701452/5.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+
+<td bgcolor="#FFFFFF" style="line-height:20px;" colspan=3>&nbsp;</td>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_12_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_501330/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0012/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0012/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0012/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0012/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_12_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_732130/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0012/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0012/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0012/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0012/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_12_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_143821/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0012/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0012/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0012/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0012/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0012_12_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0012/g_701452/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0012/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0012/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0012/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0012/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+  
+<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+
+
+
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_4_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_501330/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0014/g_501330/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0014/g_501330/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0014/g_501330/4.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0014/g_501330/4.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_4_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_732130/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0014/g_732130/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0014/g_732130/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0014/g_732130/4.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0014/g_732130/4.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_4_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_143821/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0014/g_143821/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0014/g_143821/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0014/g_143821/4.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0014/g_143821/4.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_4_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_701452/4.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0014/g_701452/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0014/g_701452/4.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0014/g_701452/4.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0014/g_701452/4.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+	
+
+<td bgcolor="#FFFFFF" style="line-height:20px;" colspan=3>&nbsp;</td>
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_7_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_501330/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0014/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0014/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0014/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0014/g_501330/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_7_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_732130/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0014/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0014/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0014/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0014/g_732130/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_7_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_143821/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0014/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0014/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0014/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0014/g_143821/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0014_7_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0014/g_701452/7.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0014/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0014/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0014/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0014/g_701452/7.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+
+
+<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+
+
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_8_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_501330/8.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0020/g_501330/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0020/g_501330/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0020/g_501330/8.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0020/g_501330/8.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_8_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_732130/8.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0020/g_732130/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0020/g_732130/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0020/g_732130/8.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0020/g_732130/8.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_8_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_143821/8.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0020/g_143821/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0020/g_143821/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0020/g_143821/8.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0020/g_143821/8.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_8_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_701452/8.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0020/g_701452/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0020/g_701452/8.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0020/g_701452/8.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0020/g_701452/8.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+	
+	
+<td bgcolor="#FFFFFF" style="line-height:20px;" colspan=3>&nbsp;</td>	
+	
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_12_angry   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_501330/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0020/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0020/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0020/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0020/g_501330/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_12_happy   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_732130/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0020/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0020/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0020/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0020/g_732130/12.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_12_sad   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_143821/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0020/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0020/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0020/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0020/g_143821/12.wav" />Your browser does not support the audio element.</audio></td>
+   </tr>
+ 
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">0020_12_surprise   </td>
+      <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/ground_truth_synthesized/golden_wavs/g_3059999/0020/g_701452/12.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/nat_inflated_f_vctk_only_tune_emo_only_2.5_1bs/g_02610000/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_conv_vctk_tune_2.5_1bs/nat_va_after_duration_conv_vctk_tune_2.5_1bs/g_02615000/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_nat_va_after_duration_upsample_vctk_tune_2.5_1bs/nat_va_after_duration_upsample_vctk_tune_2.5_1bs/g_02610000/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5_1bs/fastspeech2_reduced_va_vctk_tune_2.5_1bs/g_02615000/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
+   </tr>
+
+<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+
+ </tbody>
+ 
+</table>
+
+
+
+
      
       
         <!-- Bootstrap core JS-->
