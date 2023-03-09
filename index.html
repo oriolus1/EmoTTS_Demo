@@ -39,70 +39,7 @@
 <td bgcolor="#FFFFFF" style="line-height:80px;" colspan=3>&nbsp;</td>  
 
 
-<h1 id="comp">Copy prosodic style from reference audio</h1>
 
-  
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left"> </th>
-      <th style="text-align: left">book, chapter, phrase</th>
-      <th style="text-align: center">real phrase from audiobook</th>
-      <th style="text-align: center">synthesized phrase with transferred style</th>
-    </tr>
-  </thead> 
-
-  <tbody>
-   <tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left">far_from_the_madding_crowd_30_000044</td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_30_000044.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_30_000044_1.wav" />Your browser does not support the audio element.</audio></td>
-    </tr>
-   <tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left">far_from_the_madding_crowd_30_000075</td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_30_000075.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_30_000075_1.wav" />Your browser does not support the audio element.</audio></td>
-    </tr>
-	<tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left">far_from_the_madding_crowd_40_000011</td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_40_000011.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_40_000011_1.wav" />Your browser does not support the audio element.</audio></td>
-    </tr>
-	<tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left">far_from_the_madding_crowd_41_000116</td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_41_000116.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_41_000116_1.wav" />Your browser does not support the audio element.</audio></td>
-    </tr>
-	<tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left">far_from_the_madding_crowd_32_000198</td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_32_000198.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_32_000198_1.wav" />Your browser does not support the audio element.</audio></td>
-    </tr>
-	<tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left">mansfield_park_08_000069</td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/mansfield_park_08_000069.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/mansfield_park_08_000069_1.wav" />Your browser does not support the audio element.</audio></td>
-    </tr>
-   <tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left">far_from_the_madding_crowd_26_000202</td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_26_000202.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_26_000202_1.wav" />Your browser does not support the audio element.</audio></td>
-    </tr>
-   <tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left">far_from_the_madding_crowd_31_000147</td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_31_000147.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
-      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_31_000147_1.wav" />Your browser does not support the audio element.</audio></td>
-    </tr>
-  </tbody>
-</table>
 
 <h1 id="comp">Model comparison</h1>
 
@@ -501,14 +438,81 @@
 	  <td style="text-align: left"><audio controls=""><source src="wav/15min_emo_training/fastspeech2_reduced_va_norm_tune/fastspeech2_reduced_va_norm_tune/g_3059999/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
     </tr>
 
-<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+<td bgcolor="#FFFFFF" style="line-height:80px;" colspan=3>&nbsp;</td>
 
  </tbody>
  
 </table>
 
 
+Style transfer was made with the same model as fastpitch_full, but trained on the Bayers dataset. Note that here we benefit from the fact that the model does not need emotional labels during training.
 
+<h1 id="comp">Copy prosodic style from reference audio</h1>
+
+<td bgcolor="#FFFFFF" style="line-height:20px;" colspan=3>&nbsp;</td>
+  
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">book, chapter, phrase</th>
+      <th style="text-align: center">real phrase from audiobook</th>
+      <th style="text-align: center">synthesized phrase with transferred style</th>
+    </tr>
+  </thead> 
+
+  <tbody>
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">far_from_the_madding_crowd_30_000044</td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_30_000044.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_30_000044_1.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">far_from_the_madding_crowd_30_000075</td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_30_000075.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_30_000075_1.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+	<tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">far_from_the_madding_crowd_40_000011</td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_40_000011.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_40_000011_1.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+	<tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">far_from_the_madding_crowd_41_000116</td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_41_000116.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_41_000116_1.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+	<tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">far_from_the_madding_crowd_32_000198</td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_32_000198.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_32_000198_1.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+	<tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">mansfield_park_08_000069</td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/mansfield_park_08_000069.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/mansfield_park_08_000069_1.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">far_from_the_madding_crowd_26_000202</td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_26_000202.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_26_000202_1.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+   <tr>
+      <td style="text-align: left"></td>
+      <td style="text-align: left">far_from_the_madding_crowd_31_000147</td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_original/far_from_the_madding_crowd_31_000147.wav" type="audio/wav" />Your browser does not support the audio element.</audio></td>
+      <td style="text-align: left"><audio controls=""><source src="wav/prosodic_transfer/byers_generated/far_from_the_madding_crowd_31_000147_1.wav" />Your browser does not support the audio element.</audio></td>
+    </tr>
+	<td bgcolor="#FFFFFF" style="line-height:80px;" colspan=3>&nbsp;</td>
+  </tbody>
+</table>
 
 
 
@@ -875,7 +879,7 @@
 	  <td style="text-align: left"><audio controls=""><source src="wav/2-5-min_emo_training/generated_hifi_fastspeech2_reduced_va_vctk_tune_2.5/fastspeech2_reduced_va_vctk_tune_2.5/g_02615000/0020/g_701452/12.wav" />Your browser does not support the audio element.</audio></td>
    </tr>
 
-<td bgcolor="#FFFFFF" style="line-height:40px;" colspan=3>&nbsp;</td>
+<td bgcolor="#FFFFFF" style="line-height:80px;" colspan=3>&nbsp;</td>
 
  </tbody>
  
